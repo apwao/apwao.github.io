@@ -13,15 +13,20 @@ h1 {
 }
 p {
   font-size: 20px;
+  font-family: Tahoma;
 }
 .column {
   width: 400px;
   float:left;
+  border-style: outset;
+  border-color: hotpink;
+  border-width: 2px;
 
 }
-a:link {
+a {
   color: hotpink;
 }
-a:Visited {
-  color: crepe;
+.links {
+  float:right;
+  width: 400px;
 }
