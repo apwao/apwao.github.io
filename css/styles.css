@@ -14,13 +14,14 @@ h1 {
 p {
   font-size: 20px;
   font-family: Tahoma;
+  font-weight: bolder;
 }
 .column {
   width: 400px;
   float:left;
-  border-style: outset;
-  border-color: hotpink;
-  border-width: 2px;
+  border: 3px hotpink solid;
+  border-radius: 30px;
+  padding: 10px;
 
 }
 a {
@@ -29,4 +30,8 @@ a {
 .links {
   float:right;
   width: 400px;
+  border: 3px hotpink solid;
+}
+.column .about-me {
+  float: right;
 }
