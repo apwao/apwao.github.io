@@ -17,9 +17,9 @@ p {
   font-weight: bolder;
 }
 .column {
-  width: 400px;
+  width: 350px;
   float:left;
-  border: 3px solid hotpink;
+  border: 3px solid pink;
   border-radius: 20px;
   padding: 10px;
 }
@@ -30,7 +30,7 @@ a {
 .links {
   width: 400px;
   float: right;
-  border: 3px solid hotpink;
+  border: 3px solid pink;
   border-radius: 20px;
   position: relative;
   bottom: 400px;
@@ -41,4 +41,9 @@ a {
   font-weight: bolder;
   text-align: center;
   font-size: 30px;
+}
+.hobbies {
+  position: relative;
+  left: 45px;
+
 }
